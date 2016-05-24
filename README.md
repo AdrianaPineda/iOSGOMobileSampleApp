@@ -5,12 +5,12 @@
 2. Run the app
 
 ## Known issues
-1. Bitcode is not supported because the framework included `FrameworkGOMobileSample.framework` does not support it. The project has bitcode disabled. (Build Settings > Enable Bitcode > No).
+* Bitcode is not supported because the framework included `FrameworkGOMobileSample.framework` does not support it. The project has bitcode disabled. (Build Settings > Enable Bitcode > No).
 
 When trying to compile the project with bitcode enabled in a real device you will get:
 ld: '{...}/iOSGOMobileSampleApp/FrameworkGOMobileSample.framework/FrameworkGOMobileSample' does not contain bitcode. You must rebuild it with bitcode enabled (Xcode setting ENABLE_BITCODE), obtain an updated library from the vendor, or disable bitcode for this target. for architecture armv7
 
-2. Code Sign On Copy is disabled. Under Build Phases > Copy Files > FrameworkGOMobileSample.framework
+* Code Sign On Copy is disabled. Under Build Phases > Copy Files > FrameworkGOMobileSample.framework
 
 When you try to compile the project with `Code Sign On Copy` enabled in a real device you will get:
 
