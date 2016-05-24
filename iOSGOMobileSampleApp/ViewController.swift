@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FrameworkGOMobileSample
 
 class ViewController: UIViewController {
 
