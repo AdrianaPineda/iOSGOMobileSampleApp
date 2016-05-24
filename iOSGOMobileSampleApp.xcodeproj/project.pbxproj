@@ -13,7 +13,7 @@
 		01C58D0E1CF4AD660028BAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C58D0D1CF4AD660028BAF9 /* Assets.xcassets */; };
 		01C58D111CF4AD660028BAF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C58D0F1CF4AD660028BAF9 /* LaunchScreen.storyboard */; };
 		01C58D191CF4B1B70028BAF9 /* FrameworkGOMobileSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C58D181CF4B1B70028BAF9 /* FrameworkGOMobileSample.framework */; };
-		01C58D1C1CF4B1CD0028BAF9 /* FrameworkGOMobileSample.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 01C58D181CF4B1B70028BAF9 /* FrameworkGOMobileSample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01C58D1C1CF4B1CD0028BAF9 /* FrameworkGOMobileSample.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 01C58D181CF4B1B70028BAF9 /* FrameworkGOMobileSample.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
