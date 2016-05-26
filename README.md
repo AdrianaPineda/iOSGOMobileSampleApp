@@ -1,7 +1,7 @@
 # iOSGOMobileSampleApp
 
 ## Requirements
-1. After creating the universal framework, add `FrameworkGOMobileSample.framework` in the Sample App project root
+1. After creating the universal framework, add `FrameworkGOMobileSample.framework` in the root of the Sample App project
 2. Run the app
 
 ## Known issues
