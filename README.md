@@ -15,3 +15,8 @@ ld: '{...}/iOSGOMobileSampleApp/FrameworkGOMobileSample.framework/FrameworkGOMob
 When you try to compile the project with `Code Sign On Copy` enabled in a real device you will get:
 
 error: bitcode_strip {...}/iOSGOMobileSampleApp/FrameworkGOMobileSample.framework/Frameworks/Sample.framework/Versions/A/Sample: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 1
+
+* When the build configuration is set to Release, simulators will stop working and you will get this error:
+`'iOSSample' is unavailable: cannot find Swift declaration for this class`
+
+The fix for this is to change the Valid Architectures to 'arm64' only
