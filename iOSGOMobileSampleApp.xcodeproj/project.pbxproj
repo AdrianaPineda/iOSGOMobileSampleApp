@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BD463E1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BD463D1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework */; };
+		01BD46421CF66B6A006DD4D8 /* FrameworkGOMobileSample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01BD463D1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		01C58D071CF4AD660028BAF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C58D061CF4AD660028BAF9 /* AppDelegate.swift */; };
 		01C58D091CF4AD660028BAF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C58D081CF4AD660028BAF9 /* ViewController.swift */; };
 		01C58D0C1CF4AD660028BAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C58D0A1CF4AD660028BAF9 /* Main.storyboard */; };
 		01C58D0E1CF4AD660028BAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C58D0D1CF4AD660028BAF9 /* Assets.xcassets */; };
 		01C58D111CF4AD660028BAF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C58D0F1CF4AD660028BAF9 /* LaunchScreen.storyboard */; };
-		01C58D191CF4B1B70028BAF9 /* FrameworkGOMobileSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C58D181CF4B1B70028BAF9 /* FrameworkGOMobileSample.framework */; };
-		01C58D1C1CF4B1CD0028BAF9 /* FrameworkGOMobileSample.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 01C58D181CF4B1B70028BAF9 /* FrameworkGOMobileSample.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		01C58D1B1CF4B1C50028BAF9 /* CopyFiles */ = {
+		01BD46431CF66B6A006DD4D8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				01C58D1C1CF4B1CD0028BAF9 /* FrameworkGOMobileSample.framework in CopyFiles */,
+				01BD46421CF66B6A006DD4D8 /* FrameworkGOMobileSample.framework in Embed Frameworks */,
 			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01BD463D1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FrameworkGOMobileSample.framework; sourceTree = "<group>"; };
 		01C58D031CF4AD660028BAF9 /* iOSGOMobileSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGOMobileSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C58D061CF4AD660028BAF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01C58D081CF4AD660028BAF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +39,6 @@
 		01C58D0D1CF4AD660028BAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01C58D101CF4AD660028BAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01C58D121CF4AD660028BAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01C58D181CF4B1B70028BAF9 /* FrameworkGOMobileSample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FrameworkGOMobileSample.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C58D191CF4B1B70028BAF9 /* FrameworkGOMobileSample.framework in Frameworks */,
+				01BD463E1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +56,7 @@
 		01C58CFA1CF4AD660028BAF9 = {
 			isa = PBXGroup;
 			children = (
-				01C58D181CF4B1B70028BAF9 /* FrameworkGOMobileSample.framework */,
+				01BD463D1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework */,
 				01C58D051CF4AD660028BAF9 /* iOSGOMobileSampleApp */,
 				01C58D041CF4AD660028BAF9 /* Products */,
 			);
@@ -92,7 +93,7 @@
 				01C58CFF1CF4AD660028BAF9 /* Sources */,
 				01C58D001CF4AD660028BAF9 /* Frameworks */,
 				01C58D011CF4AD660028BAF9 /* Resources */,
-				01C58D1B1CF4B1C50028BAF9 /* CopyFiles */,
+				01BD46431CF66B6A006DD4D8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
