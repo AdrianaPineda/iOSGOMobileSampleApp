@@ -1,8 +1,9 @@
 # iOSGOMobileSampleApp
 
 ## Requirements
-1. After creating the universal framework, add `FrameworkGOMobileSample.framework` in the root of the Sample App project
-2. Run the app
+1. Create the universal framework: https://github.com/AdrianaPineda/FrameworkGOMobileSample
+2. After creating the universal framework, add `FrameworkGOMobileSample.framework` in the root of the Sample App project
+3. Run the app
 
 ## Known issues
 * Bitcode is not supported because the framework included `FrameworkGOMobileSample.framework` does not support it. The project has bitcode disabled. (Build Settings > Enable Bitcode > No).
