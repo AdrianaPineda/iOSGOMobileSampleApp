@@ -1,10 +1,10 @@
 # Go mobile Sample app for iOS
 
-We have a 2fa authentication app that runs on iphones, ipods and ipads iOS 8+ with armv7, armv7s and arm64 architectures support. And we are embedding an umbrella framework that includes a gomobile framework. However we are experimenting some issues while including the gomobile framework.
+We have a 2fa authentication app that runs on iphones, ipods and ipads iOS 8+ with armv7, armv7s and arm64 architectures support. However we are experimenting some issues while using a gomobile framework.
 
 ## Sample app
 
-This is a sample app that includes an [umbrella framework](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/FrameworkAnatomy.html#//apple_ref/doc/uid/20002253-97623-BAJJHAJC)
+This is a sample app that includes an [umbrella framework](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/FrameworkAnatomy.html#//apple_ref/doc/uid/20002253-97623-BAJJHAJC) > FrameworkGOMobileSample.framework
 
 The umbrella framework includes a gomobile framework.
 
