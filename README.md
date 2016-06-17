@@ -4,7 +4,7 @@ We have a 2fa authentication app that runs on iphones, ipods and ipads iOS 8+ wi
 
 ## Sample app
 
-This is a sample app that includes an [umbrella framework](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/FrameworkAnatomy.html#//apple_ref/doc/uid/20002253-97623-BAJJHAJC) > FrameworkGOMobileSample.framework
+This is a sample app written in Swift that includes an [umbrella framework](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/FrameworkAnatomy.html#//apple_ref/doc/uid/20002253-97623-BAJJHAJC) named FrameworkGOMobileSample.framework
 
 The umbrella framework includes a gomobile framework.
 
