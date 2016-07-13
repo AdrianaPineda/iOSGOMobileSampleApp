@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01BD463E1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BD463D1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework */; };
-		01BD46421CF66B6A006DD4D8 /* FrameworkGOMobileSample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01BD463D1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		015F690F1D36C7E400B9B904 /* FrameworkGOMobileSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015F690E1D36C7E400B9B904 /* FrameworkGOMobileSample.framework */; };
+		015F69121D36CB3800B9B904 /* FrameworkGOMobileSample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 015F690E1D36C7E400B9B904 /* FrameworkGOMobileSample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		01C58D071CF4AD660028BAF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C58D061CF4AD660028BAF9 /* AppDelegate.swift */; };
 		01C58D091CF4AD660028BAF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C58D081CF4AD660028BAF9 /* ViewController.swift */; };
 		01C58D0C1CF4AD660028BAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C58D0A1CF4AD660028BAF9 /* Main.storyboard */; };
@@ -23,7 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				01BD46421CF66B6A006DD4D8 /* FrameworkGOMobileSample.framework in Embed Frameworks */,
+				015F69121D36CB3800B9B904 /* FrameworkGOMobileSample.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,7 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		01BD463D1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FrameworkGOMobileSample.framework; sourceTree = "<group>"; };
+		015F690E1D36C7E400B9B904 /* FrameworkGOMobileSample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FrameworkGOMobileSample.framework; sourceTree = "<group>"; };
 		01C58D031CF4AD660028BAF9 /* iOSGOMobileSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGOMobileSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C58D061CF4AD660028BAF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01C58D081CF4AD660028BAF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01BD463E1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework in Frameworks */,
+				015F690F1D36C7E400B9B904 /* FrameworkGOMobileSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 		01C58CFA1CF4AD660028BAF9 = {
 			isa = PBXGroup;
 			children = (
-				01BD463D1CF66B2A006DD4D8 /* FrameworkGOMobileSample.framework */,
+				015F690E1D36C7E400B9B904 /* FrameworkGOMobileSample.framework */,
 				01C58D051CF4AD660028BAF9 /* iOSGOMobileSampleApp */,
 				01C58D041CF4AD660028BAF9 /* Products */,
 			);
