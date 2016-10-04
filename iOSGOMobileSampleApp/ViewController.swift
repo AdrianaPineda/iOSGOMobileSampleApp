@@ -11,17 +11,11 @@ import FrameworkGOMobileSample
 
 class ViewController: UIViewController {
 
-    private var initSDK: Bool = false
-
     @IBOutlet weak var sumResult: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
-        if !initSDK {
-            iOSSample.initSDK()
-        }
 
     }
 
