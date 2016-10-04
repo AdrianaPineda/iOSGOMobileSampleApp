@@ -11,11 +11,18 @@ import FrameworkGOMobileSample
 
 class ViewController: UIViewController {
 
+    private var initSDK: Bool = false
+
     @IBOutlet weak var sumResult: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        if !initSDK {
+            iOSSample.initSDK()
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,8 +38,8 @@ class ViewController: UIViewController {
     }
 
     func sum(a: Int32, b: Int32) -> Int32 {
-        let sample: iOSSample = iOSSample()
-        return sample.sum(a, b: b)
+        return iOSSample.sum(a, b: b)
     }
+
 }
 
