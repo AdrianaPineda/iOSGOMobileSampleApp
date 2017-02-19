@@ -24,14 +24,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
 
         let sum = self.sum(1, b: 2)
         self.sumResult.text = "Sum 1+2 = \(sum)"
 
     }
 
-    func sum(a: Int32, b: Int32) -> Int32 {
+    func sum(_ a: Int32, b: Int32) -> Int32 {
         return iOSSample.sum(a, b: b)
     }
 
