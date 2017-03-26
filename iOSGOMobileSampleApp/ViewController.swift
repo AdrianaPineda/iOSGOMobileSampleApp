@@ -31,7 +31,7 @@ class ViewController: UIViewController {
 
     }
 
-    func sum(_ a: Int32, b: Int32) -> Int32 {
+    func sum(_ a: Int, b: Int) -> Int {
         return iOSSample.sum(a, b: b)
     }
 
